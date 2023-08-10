@@ -4,11 +4,11 @@
 int main() {
     double CPU_time_use;
     clock_t start_time, end_time;
-
+    int i;
+    
     // non-I/O operation
     start_time = clock();
     int result = 0;
-    int i;
     for (i=0;i<1000000;i++) {
         result = result+i;
     }
