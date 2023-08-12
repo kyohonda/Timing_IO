@@ -2,7 +2,7 @@
 #include <time.h>
 
 int main() {
-    double CPU_time_use;
+
     clock_t start_time, end_time;
     double CPU_time_NonIO, CPU_time_IO;
     int i;
